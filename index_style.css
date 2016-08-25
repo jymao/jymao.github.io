@@ -47,11 +47,14 @@ header {
 #profilepic {
 	width: 50px;
 	height: 50px;
-
-	border: 1px solid black;
-	border-radius: 30px;
+	
 	margin: 4px 20px 0px 10px;
 	float: left;
+}
+
+#profilepic img {
+	border: 1px solid black;
+	border-radius: 30px;
 }
 
 .bookmark {
@@ -216,7 +219,6 @@ div.content {
 		margin: auto;
 		width: 560px;
 		height: 315px;
-		border: 1px solid black;
 	}
 }
 @media only screen and (min-width: 1200px) {
@@ -226,7 +228,6 @@ div.content {
 		margin-left: 50px;
 		margin-right: 10px;
 
-		border: 1px solid black;
 		float: right;
 	}
 }
