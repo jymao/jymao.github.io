@@ -3,286 +3,137 @@
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=0.5" charset="UTF-8" />
-<title> Homepage: jymao</title>
+<title>jymao: Home</title>
+<link rel="icon" href="pictures/favicon.png">
+<link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="index_style.css">
 </head>
 
 <body>
 
-<header id="siteheader">
-	<div id="profilepic">
-		<img src="profile50.png" alt="profile" style="width:50px; height:50px;">
-	</div>
-	<h1> jymao </h1>
-</header>
-
-<div id="baten" class="bookmark"></div>
-
-<div id="container">
-<nav>
-<ul>
-	<li><h3>Personal Projects</h3></li>
-	<li><a href="#baten">BatenKaitosClone</a></li>
-	<li><a href="#guitar">GuitarTabEditor</a></li>
-	<li><a href="#stratagem">Stratagem</a></li>
-	<li><a href="#transcension">Transcension</a></li>
-	<li><a href="#bulletwaves">Bullet Waves</a></li>
-	<li><h3>School Projects</h3></li>
-	<li><a href="#photon">Photon Mapping</a></li>
-	<li><a href="#kitchen">Kitchen Simulator</a></li>
-	<li><a href="#streetmeet">StreetMeet</a></li>
-	<li><a href="#lightspeed">Light Speed</a></li>
-</ul>
-</nav>
-
-<section>
-
-<article>
-	<header>
-		<h2> BatenKaitosClone </h2> 
-	</header>
-	<div class="content">
-		<div class="pictures" style="height:350px;">
-			<img src="BatenKaitosClone.png" alt="BatenKaitosClone" style="width:560px; height:350px;">
+<div class="menu">
+	<a class="menu-item" style="background-color: rgb(44, 72, 127);" href="index.html">Home</a>
+	<a class="menu-item" href="games.html">Games</a>
+	<a class="menu-item" href="school.html">School</a>
+	<a class="menu-item" href="misc.html">Misc</a>
+</div>
+<div class="row">
+	<div class="column sidebar">
+		<div class="profile">
+			<img class="profile-pic" src="pictures/profile.jpeg" alt="profile">
 		</div>
-		<div class="description">
-			August 2017
-			<br>
-			Programming language: C#
-			<br>
-			<br>
-			A Unity game that recreates the turn-based battle system of Baten Kaitos: Eternal Wings and the Lost Ocean. 
-			The player first chooses a deck of cards called Magnus. 
-			When the battle begins, the player must choose a sequence of Magnus in time to attack the enemy or defend during the enemy's turn. 
-			Magnus can have different elements, and opposing elements such as fire and water cancel each other out during damage calculation. 
-			Bonuses to damage are given depending on the elements and numbers of the Magnus chosen in the combo.
-			<br>
-			<br>
-			<a href="https://github.com/jymao/BatenKaitosClone">Source code</a>
+		<div class="profile-name">Jonathan Mao</div>
+		<div class="horiz-line"></div>
+		<div class="introduction">
+			Hello, my name is Jonathan, and I'm a programmer and an artist. I love coding and learning new topics in computer science, 
+			with a strong interest in computer graphics and game development.
 		</div>
 	</div>
-</article>
-
-<div id="guitar" class="bookmark"></div>
-
-<article>
-	<header>
-		<h2> GuitarTabEditor </h2> 
-	</header>
-	<div class="content">
-		<div class="pictures" style="height:292px;">
-			<img src="GuitarTabEditor.png" alt="GuitarTabEditor" style="width:560px; height:292px;">
+	<div class="column main">
+		<div class="entry">
+			<div class="entry-title">Guitar Tab Editor</div>
+			<div class="entry-content">
+				<div class="content-media">
+					<img class="image" src="pictures/guitartab.png" alt="guitartab">
+				</div>
+				<div class="content-date">July 2017</div>
+				<div class="content-proglang">Programming Language: Java</div>
+				<div class="content-text">
+					A Java Swing user interface for adding notes and measures to create a simple guitar tab. 
+					It also uses a MIDI synthesizer to play the tab back with a virtual guitar instrument. 
+					The tab can be saved as a text file and opened in the program again later.
+					<br />
+					<a class="content-button" href="https://github.com/jymao/GuitarTabEditor" target="_blank">Source Code</a>
+				</div>
+			</div>
 		</div>
-		<div class="description">
-			July 2017
-			<br>
-			Programming language: Java
-			<br>
-			<br>
-			The program provides a user interface for adding notes and measures to create a simple guitar tab.
-			It also uses a MIDI synthesizer to play the tab with a guitar sound. The tab can be saved as a
-			text file and opened in the program again later.
-			<br>
-			<br>
-			<a href="https://github.com/jymao/GuitarTabEditor">Source code</a>
+		<div class="entry">
+			<div class="entry-title">Stratagem</div>
+			<div class="entry-content">
+				<div class="content-media">
+					<img class="image" src="pictures/stratagem.png" alt="stratagem">
+				</div>
+				<div class="content-date">January - February 2017</div>
+				<div class="content-proglang">Programming Language: C#</div>
+				<div class="content-text">
+					Stratagem is a Unity game inspired by strategy role-playing game series such as Fire Emblem, 
+					Advance Wars, and Disgaea. It features grid-based movement and turn-based combat with six unique 
+					units to choose from. Pick a strong team composition, position your units, and choose your battles 
+					wisely in order to defeat the enemy team.
+					<br />
+					<a class="content-button" href="https://jymao.github.io/Stratagem/" target="_blank">Play it Here</a>
+					<a class="content-button" href="https://github.com/jymao/Stratagem" target="_blank">Source Code</a>
+				</div>
+			</div>
 		</div>
-	</div>
-</article>
-
-<div id="stratagem" class="bookmark"></div>
-
-<article>
-	<header>
-		<h2> Stratagem </h2> 
-	</header>
-	<div class="content">
-		<div class="pictures" style="height:292px;">
-			<img src="Stratagem.png" alt="Stratagem" style="width:560px; height:292px;">
+		<div class="entry">
+			<div class="entry-title">Bullet Waves</div>
+			<div class="entry-content">
+				<div class="content-media">
+					<img class="image" src="pictures/bulletwaves.png" alt="bulletwaves">
+				</div>
+				<div class="content-date">August 2016, May-June 2017</div>
+				<div class="content-proglang">Programming Language: C#</div>
+				<div class="content-text">
+					Bullet Waves is a Unity game made in the style of "bullet-hell" games. 
+					It is a shooter with a focus on fighting bosses. In normal mode, the player defeats bosses one after another. 
+					In endless mode, the boss's health is removed and damage dealt to the boss increases the player's score. 
+					There are currently two bosses to challenge.
+					<br />
+					<a class="content-button" href="https://jymao.github.io/BulletWaves/" target="_blank">Play it Here</a>
+					<a class="content-button" href="https://github.com/jymao/BulletWaves" target="_blank">Source Code</a>
+				</div>
+			</div>
 		</div>
-		<div class="description">
-			January - February 2017
-			<br>
-			Programming language: C#
-			<br>
-			<br>
-			Stratagem is a Unity game inspired by strategy role-playing game series such as Fire Emblem, Advance Wars, and Disgaea.
-			It features grid-based movement and turn-based combat with six unique units to choose from. Pick a strong team composition,
-			position your units, and choose your battles wisely in order to defeat the enemy team.
-			<br>
-			<br>
-			<a href="https://jymao.github.io/Stratagem/">Play it here</a>
-			<br>
-			<br>
-			<a href="https://github.com/jymao/Stratagem">Source code for game scripts</a>
+		<div class="entry">
+			<div class="entry-title">Photon Mapping</div>
+			<div class="entry-content">
+				<div class="content-media">
+					<img class="image" src="pictures/photon.jpeg" alt="photon">
+				</div>
+				<div class="content-date">Spring 2016</div>
+				<div class="content-proglang">Programming Language: C++</div>
+				<div class="content-text">
+					This two-person school project is the final iteration of the ray tracing engine built for a computer graphics class. 
+					The first iteration involved basic ray tracing to render diffuse, reflective, and refractive materials. 
+					Next, bounding boxes and a bounding volume hierarchy are used to speed up the render time by reducing the number of ray intersection tests computed. Finally, progressive photon mapping is implemented for better visuals and more convincing refraction and caustics.
+				</div>
+			</div>
 		</div>
-	</div>
-</article>
-
-<div id="transcension" class="bookmark"></div>
-
-<article>
-	<header>
-		<h2> Transcension </h2> 
-	</header>
-	<div class="content">
-		<div class="pictures" style="height:349px;">
-			<img src="Transcension.png" alt="Transcension" style="width:560px; height:349px;">
+		<div class="entry">
+			<div class="entry-title">Kitchen Simulator</div>
+			<div class="entry-content">
+				<div class="content-media">
+					<iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/fKELYxZDBCE" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="content-date">Spring 2016</div>
+				<div class="content-proglang">Programming Language: C#</div>
+				<div class="content-text">
+					Kitchen Simulator is a school project developed by two people in the Unity engine for a class about 3D user interaction. 
+					It utilizes the PlayStation Move for controls. 
+					The aim of the game is to find and collect ingredients around the area to complete the chosen recipe. 
+					Technical features include: 3D menus, object selection and manipulation, wayfinding, and player movement.
+				</div>
+			</div>
 		</div>
-		<div class="description">
-			October - November 2016
-			<br>
-			Programming language: C#
-			<br>
-			<br>
-			Transcension is a 2D Unity game in which the objective is to defeat all enemies on the current
-			floor to progress to the next one. Each floor is randomly generated by choosing a rock pattern from
-			predefined ones and by choosing an enemy type and how many to spawn. The number of enemies and the chance of
-			spawning a more difficult type increases as the player clears more floors.
-			<br>
-			<br>
-			<a href="https://jymao.github.io/TranscensionGame/">Play it here</a>
-			<br>
-			<br>
-			<a href="https://github.com/jymao/TranscensionGame">Source code for game scripts</a>
-		</div>
-	</div>
-</article>
-
-<div id="bulletwaves" class="bookmark"></div>
-
-<article>
-	<header>
-		<h2> Bullet Waves </h2> 
-	</header>
-	<div class="content">
-		<div class="pictures" style="height:430px;">
-			<img src="BulletWaves.png" alt="BulletWaves" style="width:560px; height:430px;">
-		</div>
-		<div class="description">
-			August 2016, May-June 2017
-			<br>
-			Programming language: C#
-			<br>
-			<br>
-			Bullet Waves is a personal 2D Unity game made in the style of "bullet-hell" games. It is a shooter with
-			a focus on fighting bosses. In normal mode, the player defeats bosses one after another. In endless mode,
-			the boss's health is removed and damage dealt to the boss increases the player's score. There are currently
-			two bosses to challenge.
-			<br>
-			<br>
-			<a href="https://jymao.github.io/BulletWaves/">Play it here</a>
-			<br>
-			<br>
-			<a href="https://github.com/jymao/BulletWaves">Source code for game scripts</a>
+		<div class="entry">
+			<div class="entry-title">StreetMeet</div>
+			<div class="entry-content">
+				<div class="content-media">
+					<iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/7_F9lewPmBw" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="content-date">Winter 2015</div>
+				<div class="content-proglang">Programming Language: Java</div>
+				<div class="content-text">
+					StreetMeet is an Android mobile application developed by a group of six for a mobile development class. 
+					The primary feature of the app is the use of Bluetooth LE beacons, which allows phones to advertise themselves and find other phones within range. The app will share the profile created by the user with other users that he or she passes by. 
+					This can be used like a business card, an informal resume, or a way to meet new people. 
+					Users can also set filters to see profiles with specific attributes.
+				</div>
+			</div>
 		</div>
 	</div>
-</article>
-
-<div id="photon" class="bookmark"></div>
-
-<article>
-	<header>
-		<h2> Computer Graphics Rendering Final Project: Photon Mapping </h2>
-	</header>
-	<div class="content">
-		<div class="pictures" style="height:569px;">
-			<img src="photonmapping.png" alt="Photon Mapping" style="width:560px; height:569px;">
-		</div>
-		<div class="description">
-			Spring 2016
-			<br>
-			Programming language: C++
-			<br>
-			<br>
-			This two-person project is the final iteration of the ray tracing engine built for the class.
-			The first iteration involved basic ray tracing to render diffuse, reflective, and refractive
-			materials. Next, bounding boxes and a bounding volume hierarchy are used to speed up the
-			render time by reducing the number of ray intersection tests computed. Finally, progressive
-			photon mapping is implemented for better visuals and more convincing refraction and caustics.
-		</div>
-	</div>
-</article>
-
-<div id="kitchen" class="bookmark"></div>
-
-<article>
-	<header>
-		<h2> 3D User Interaction Final Project: Kitchen Simulator </h2>
-	</header>
-	<div class="content">
-		<div class="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/fKELYxZDBCE" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="description">
-			Spring 2016
-			<br>
-			Programming language: C#
-			<br>
-			<br>
-			Kitchen Simulator is a game developed by two people in the Unity engine and utilizes
-			the PlayStation Move for controls. The aim of the game is to find and collect ingredients around
-			the area to complete the chosen recipe. Technical features include: 3D menus, object selection and
-			manipulation, wayfinding, and player movement.
-		</div>
-	</div>
-</article>
-
-<div id="streetmeet" class="bookmark"></div>
-
-<article>
-	<header>
-		<h2> Mobile Programming Final Project: StreetMeet </h2>
-	</header>
-	<div class="content">
-		<div class="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/7_F9lewPmBw" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="description">
-			Winter 2015
-			<br>
-			Programming language: Java
-			<br>
-			<br>
-			StreetMeet is an Android mobile application developed by a group of six for 
-			a mobile development class. The primary feature of the app is the use of Bluetooth LE
-			beacons, which allows phones to advertise themselves and find other phones within range.
-			The app will share the profile created by the user with other users that he or she passes by.
-			This can be used like a business card, an informal resume, or a way to meet new people. Users
-			can also set filters to see profiles with specific attributes.
-			<br>
-			<br>
-			<a href="https://github.com/smahbod2014/StreetClash">Source code</a>
-		</div>
-	</div>
-</article>
-
-<div id="lightspeed" class="bookmark"></div>
-
-<article>
-	<header>
-		<h2> Computer Graphics Final Project: Light Speed </h2>
-	</header>
-	<div class="content">
-		<div class="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Apu02wmjXAg" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="description">
-			Spring 2015
-			<br>
-			Programming language: C++
-			<br>
-			<br>
-			Light Speed is a two-person project that builds on the OpenGL graphics engine developed
-			throughout the school quarter while featuring a minigame of a tank dodging beams from
-			UFOs. The main features showcased are: per-pixel texture lighting, asteroids in the background
-			that are generated as particle effects, initial camera movement using a Bezier curve path, and
-			bounding sphere collision detection for the UFOs.
-		</div>
-	</div>
-</article>
-
-</section>
-
 </div>
 
 </body>

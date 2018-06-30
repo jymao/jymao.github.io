@@ -9,68 +9,10 @@ body {
 	background-attachment: fixed;
 }
 
-.row {
+.main{
 	width: 70%;
 	margin: auto;
-}
-.column {
-	float: left;
-	width: 50%;
-}
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.sidebar {
-	width: 30%;
 	margin-top: 30px;
-	background-color: rgb(35, 54, 91);
-	color: white;
-	box-shadow: 1px 1px 7px 1px rgb(181, 189, 204), -1px -1px 7px 1px rgb(181, 189, 204);
-}
-
-.profile {
-	width: 200px;
-	height: 200px;
-	border: 3px solid white;
-	border-radius: 50%;
-	overflow: hidden;
-	margin: auto;
-	margin-top: 30px;
-	box-shadow: 1px 1px 15px 1px rgb(13, 31, 66), -1px -1px 15px 1px rgb(13, 31, 66);
-}
-.profile-pic {
-	width: 200px;
-	height: 200px;
-}
-.profile-name {
-	width: 80%;
-	margin: auto;
-	margin-top: 30px;
-	font-family: Electrolize, Tahoma, Geneva, sans-serif;
-	font-size: 1.5em;
-	text-align: center;
-}
-.horiz-line {
-	border-bottom: 3px solid white;
-	width: 80%;
-	margin: auto;
-	margin-top: 30px;
-}
-.introduction {
-	width: 75%;
-	margin: auto;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	font-family: "Open Sans", Tahoma, Geneva, sans-serif;
-}
-
-.main {
-	width: 67.5%;
-	margin-top: 30px;
-	margin-left: 2.5%;
 }
 
 .menu {
@@ -116,9 +58,13 @@ body {
 	font-family: "Open Sans", Tahoma, Geneva, sans-serif;
 	background-color: white;
 	padding-top: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 5%;
+	padding-right: 5%;
 	padding-bottom: 30px;
+}
+.content-date, .content-proglang, .content-media, .content-text {
+	width: 75%;
+	margin: auto;
 }
 .content-date {
 	color: rgb(80,80,80);
@@ -127,18 +73,17 @@ body {
 	color: rgb(80,80,80);
 }
 .content-media {
-	width: 100%;
 	margin: auto;
 	padding-bottom: 30px;
 }
 .image {
-	max-width: 100%;
+	max-width:100%;
 	height: auto;
 	display: block;
 	margin: auto;
 }
 .video {
-	max-width: 100%;
+	max-width:100%;
 	max-height: 100%;
 	display: block;
 	margin:auto;
@@ -162,19 +107,19 @@ body {
 	background-color: rgb(186, 68, 9);
 }
 
-/* Extra small devices (phones, 600px and down) */
+ /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.test {
 		background-color: red;
 	}
-	.sidebar, .main, .menu, .row {
+	.menu, .main {
 		width: 100%;
-	}
-	.main {
-		margin-left: 0%;
 	}
 	.menu-item {
 		font-size: 1em;
+	}
+	.content-date, .content-proglang, .content-media, .content-text {
+		width: 97.5%;
 	}
 	.content-date, .content-proglang, .content-text {
 		font-size: 0.75em;
@@ -183,16 +128,6 @@ body {
 		font-size: 1.25em;
 		text-align: center;
 		padding-left: 0px;
-	}
-	.sidebar {
-		font-size: 0.75em;
-	}
-	.horiz-line, .introduction {
-		margin-top: 10px;
-	}
-	.profile, .profile-pic {
-		width: 150px;
-		height: 150px;
 	}
 	.video {
 		width: 480px;
@@ -205,17 +140,14 @@ body {
 	.test {
 		background-color: orange;
 	}
-	.menu, .row {
+	.menu, .main {
 		width: 90%;
-	}
-	.sidebar, .main {
-		width: 100%;
-	}
-	.main {
-		margin-left: 0%;
 	}
 	.menu-item {
 		font-size: 1em;
+	}
+	.content-date, .content-proglang, .content-media, .content-text {
+		width: 97.5%;
 	}
 }
 
@@ -231,19 +163,14 @@ body {
 	.test {
 		background-color: green;
 	}
-	.profile, .profile-pic {
-		width: 150px;
-		height: 150px;
-	}
-	.sidebar {
-		width: 30%;
-	}
-	.main {
-		width: 67.5%;
-		margin-left: 2.5%;
+	.menu, .main {
+		width: 70%;
 	}
 	.menu-item {
 		font-size: 1.25em;
+	}
+	.content-date, .content-proglang, .content-media, .content-text {
+		width: 90%;
 	}
 }
 
@@ -252,11 +179,10 @@ body {
 	.test {
 		background-color: blue;
 	}
-	.menu, .row {
-		width: 1100px;
+	.menu, .main {
+		width: 900px;
 	}
-	.profile, .profile-pic {
-		width: 200px;
-		height: 200px;
+	.content-date, .content-proglang, .content-media, .content-text {
+		width: 85%;
 	}
 } 
